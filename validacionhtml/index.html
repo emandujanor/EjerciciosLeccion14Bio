@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta content="text/html" charset="utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+	<div align="center">
+      <h2> Formulario de Datos</h2>
+	  <form>
+    	<label > Nombre:</label></br>
+    	<input type="text" name="Nombre" placeholder="Nombre" title="Ingrese su nombre" required></br>
+        <label > Apellido:</label></br>
+    	<input type="text" name="Apellido" placeholder="Apellido" title="Ingrese su apellido" required></br>
+        <label > Número de Teléfono:</label></br>
+    	<input type="tel" name="Teléfono"  placeholder="Teléfono" pattern=".{10,}" title="Ingrese su número telefónico 10 dígitos" required></br>
+        <label > Escoge una opción</label></br>
+        <select name="opciones" required>
+        	<option value="">- Selecciona una opción -</option>
+    		<option value="opcion1">Opcion1</option>
+    		<option value="opcion2">Opcion2</option>
+    		<option value="opcion3">Opcion3</option>
+    		<option value="opcion4">Opcion4</option>
+  		</select></br></br>
+        <label > Email:</label></br>
+        <input type="email" name="correo"  placeholder="Email" title="Ingrese un email valido" required></br>
+        <label > Crea tu contraseña</label></br>
+        <input type="password" placeholder="Password" pattern=".{6,}" id="password" title="Ingrese su paswword" required></br></br>
+        <input type="submit">
+      </form>
+     </div>
+
+</body>
+</html>

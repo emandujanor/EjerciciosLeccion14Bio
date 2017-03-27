@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta content="text/html" charset="utf-8" />
+        <title>Convertidor</title>
+    </head>
+
+    <body>
+    	<h1 align="center">Convertidor</h1>
+        <form>
+    	<table width="50%" border="1" cellpadding="3" align="center">
+          <tr>
+            <td>Farenheit</td>
+            <td>
+            	<input type="text" id="farenheit" name="farenheit" value="">
+            </td>
+            <td>
+            	<button type="button" onclick="convertirCelsius();"> Convertir a Celsius</button>
+            </td>
+            <td id="gradosc">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Celcius</td>
+            <td>
+            	<input type="text" id="celcius" name="celcius" value="">
+            </td>
+            <td>
+            	<button type="button" onclick="convertirFaren();"> Convertir a Farenheit</button>
+            </td>
+            <td id="gradosf">&nbsp;</td>
+          </tr>
+		</table>
+		</form>
+
+        <script type="text/javascript" src="assets/js/convertidor.js"></script>
+    </body>
+</html>
